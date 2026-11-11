@@ -78,9 +78,9 @@ window.CONFIG = {
   // mostrarTexto: true mostra “Voltar”; false deixa apenas a área clicável.
   // A posição pode ser alterada no editor ?editor=1.
   botoesVoltar: {
-    presentes: { mostrarTexto:true, posicao: {"left":3.0865908296725224,"top":1.2698621493979574,"width":20.20446972344249,"height":7.495966539354989} },
-    dresscode: { mostrarTexto:true, posicao: {"left":3.7,"top":1.5,"width":20,"height":6} },
-    manual: { mostrarTexto:true, posicao: {"left":3.7,"top":1.5,"width":20,"height":6.575373982992509} }
+    presentes: { mostrarTexto:true, posicao: {"left":3.0865908296725224,"top":1.2698621493979574,"width":25.929699980031945,"height":7.380890755061586} },
+    dresscode: { mostrarTexto:true, posicao: {"left":3.7,"top":1.5,"width":25.929715580071885,"height":7.4959725752682775} },
+    manual: { mostrarTexto:true, posicao: {"left":3.7,"top":1.5,"width":24.90735136281949,"height":7.495970380390719} }
   },
 
   // ----- POSIÇÃO DOS BOTÕES NA TELA PRINCIPAL ----------------------------
@@ -89,11 +89,11 @@ window.CONFIG = {
   //   left/top: canto superior esquerdo do botão
   //   width/height: tamanho do botão
     hotspots: {
-        confirm: { left:21.564698918531082, top:67.71573757319854, width:15.145141206110225, height:8.112081176756385 },
-        map: { left:43.353725100798144, top:69.4418351715497, width:15.203008414616558, height:8.06269292353681 },
-        gift: { left:65.43828186090272, top:68.05013080594075, width:15.273166059305108, height:8.183178805420233 },
-        manual: { left:53.98779014764393, top:79.55760607603581, width:15.682105506190094, height:8.183178805420233 },
-        dress: { left:32.58624326078276, top:79.44252864558423, width:15.068696335862617, height:8.183178805420233 }
+        confirm: { left:21.76918424201351, top:67.02529932901982, width:15.145141206110225, height:8.112081176756385 },
+        map: { left:43.55819482424064, top:68.29108720556468, width:15.203008414616558, height:8.06269292353681 },
+        gift: { left:66.05170663127014, top:67.01446466016243, width:15.273166059305108, height:8.183178805420233 },
+        manual: { left:54.60121491801134, top:78.52193115074725, width:15.682105506190094, height:8.183178805420233 },
+        dress: { left:31.768348766972853, top:78.63700858119881, width:15.068696335862617, height:8.183178805420233 }
   },
 
   // ----- CONTAGEM REGRESSIVA ---------------------------------------------
