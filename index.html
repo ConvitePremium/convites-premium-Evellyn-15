@@ -112,7 +112,7 @@
 
     <section id="videoScreen" class="screen" aria-label="Vídeo do convite">
       <div class="stage"><video id="videoPlayer" src="assets/video.mp4" preload="metadata" playsinline webkit-playsinline></video></div>
-      <button class="skip" id="skipBtn" type="button">Pular vídeo</button>
+      <button class="skip" id="skipBtn" type="button">Saltar vídeo</button>
     </section>
 
     <section id="mainScreen" class="screen" aria-label="Convite principal">
@@ -130,21 +130,21 @@
     <section id="giftScreen" class="screen" aria-label="Sugestões de presentes">
       <div class="stage" id="giftStage">
         <img class="art" src="assets/presentes.webp" alt="Sugestões de presentes" loading="lazy" width="941" height="1672">
-        <button class="back" id="backBtn" data-key="backGift" data-label="Voltar — Presentes">Voltar</button>
+        <button class="back" id="backBtn" data-key="backGift" data-label="Voltar — Presentes">Volver</button>
       </div>
     </section>
 
     <section id="dressScreen" class="screen" aria-label="Dress code">
       <div class="stage" id="dressStage">
         <img class="art" src="assets/dresscode.webp" alt="Dress code" loading="lazy" width="941" height="1672">
-        <button class="back" id="dressBackBtn" data-key="backDress" data-label="Voltar — Dress Code">Voltar</button>
+        <button class="back" id="dressBackBtn" data-key="backDress" data-label="Voltar — Dress Code">Volver</button>
       </div>
     </section>
 
     <section id="manualScreen" class="screen" aria-label="Manual do convidado">
       <div class="stage" id="manualStage">
         <img class="art" src="assets/manual.webp" alt="Manual do convidado" loading="lazy" width="941" height="1672">
-        <button class="back" id="manualBackBtn" data-key="backManual" data-label="Voltar — Manual do Convidado">Voltar</button>
+        <button class="back" id="manualBackBtn" data-key="backManual" data-label="Voltar — Manual do Convidado">Volver</button>
       </div>
     </section>
 
@@ -158,7 +158,7 @@
           <div class="countdown-item"><span class="countdown-value" id="countMinutes">00</span><span class="countdown-label">Min</span></div>
           <div class="countdown-item"><span class="countdown-value" id="countSeconds">00</span><span class="countdown-label">Seg</span></div>
         </div>
-        <button class="back" id="countdownBackBtn" data-key="backCountdown" data-label="Voltar — Contagem">Voltar</button>
+        <button class="back" id="countdownBackBtn" data-key="backCountdown" data-label="Voltar — Contagem">Volver</button>
       </div>
     </section>
   </main>
@@ -216,7 +216,7 @@
           contagem:true
         }, CFG.telas || {}),
         textos: Object.assign(
-          { abrir:"Toque para abrir", pularVideo:"Pular vídeo", voltar:"Voltar", ativarMusica:"Ativar música" },
+          { abrir:"Toque para abrir", pularVideo:"Saltar vídeo", voltar:"Volver", ativarMusica:"Ativar música" },
           CFG.textos || {}
         ),
         tema: Object.assign(

@@ -58,8 +58,8 @@ window.CONFIG = {
   // Rótulos que aparecem nos botões. Edite livremente.
   textos: {
     abrir: "Toca para abrir",
-    pularVideo: "Pular vídeo",
-    voltar: "Voltar",
+    pularVideo: "Saltar vídeo",
+    voltar: "Volver",
     ativarMusica: "Ativar música"
   },
 
